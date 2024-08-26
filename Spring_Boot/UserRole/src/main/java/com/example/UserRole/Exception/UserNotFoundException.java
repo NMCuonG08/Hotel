@@ -1,2 +1,7 @@
-package com.example.UserRole.Exception;public class UserNotFoundException {
+package com.example.UserRole.Exception;
+
+public class UserNotFoundException extends RuntimeException {
+    public UserNotFoundException(String s) {
+        super(s);
+    }
 }

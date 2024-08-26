@@ -1,2 +1,4 @@
-package com.example.UserRole.Security;public class UserDetailsService {
+package com.example.UserRole.Security;
+
+public class UserDetailsService {
 }
